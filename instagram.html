@@ -27,9 +27,10 @@
             <a href="index.html"><img class="logo" src="img/v2.png"></a>
         </div>
 
-        <div id="teste">
+        <div id="insta-nav">
             <a href="#"><i class="fab fa-instagram"></i></a>
         </div>
+
 
 
 
@@ -39,14 +40,14 @@
             <a class="home-link" href="index.html"><i class="fas fa-home"></i></a>
             <a href="about.html">Sobre</a>
             <a href="#">Produtos</a>
-            <a href="#">Instagram</a>
+            <a href="instagram.html">Instagram</a>
             <a href="contact.html">Contacto</a>
 
         </div>
     </header>
 
     <section id="instafeed-container">
-        <p>teste</p>
+    
     </section>
 
 
@@ -61,7 +62,16 @@
 
     <script src="index.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
-
+    <script type="text/javascript">
+        var userFeed = new Instafeed({
+            get: 'domeuarmariopt',
+            target: "instafeed-container",
+            resolution: 'low_resolution',
+            limit: 16,
+            accessToken: 'IGQVJXY1ZA0WFVEUFBObTQ2ZAWU2ck5rYXlBVzRDQjlmRXFWTWVYSURXcG1TSktqSFhDd3FhSEF1aXRsaWpKTThSemMtTGFHUW1ROEhUUURwWU9kejdta3VIWXN3VEdld0V6LWgxc0hYczhKNS13TWJ1OAZDZD'
+        });
+        userFeed.run();
+    </script>
 </body>
 
 </html>
