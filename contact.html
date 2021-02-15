@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>do meu armário</title>
+
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif|Rufina:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header>
+        <div id="nav">
+            <button class="openbtn" onclick="openNav()">☰ </button>
+
+
+        </div>
+
+        <div id="logo-container">
+            <a href="index.html"><img class="logo" src="img/v2.png"></a>
+        </div>
+
+        <div id="insta-nav">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+
+
+
+
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"></a>
+            <a href="index.html"><i class="fas fa-home"></i></a>
+            <a href="about.html">Sobre</a>
+            <a href="#">Produtos</a>
+            <a href="#">Instagram</a>
+            <a href="contact.html">Contacto</a>
+
+        </div>
+    </header>
+
+
+    <section id="form-area">
+        <div>
+            <h2>se quiser falar, diz aí</h2>
+        </div>
+        <form class="form-area" action="https://formspree.io/f/xeqpwowb" method="POST">
+
+            <div class="half left">
+                <p class="name"><label for="name">Nome</label></p>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="half right">
+                <p class="email"> <label for="email">E-mail</label></p>
+                <input type="text" id="email" name="email" required>
+            </div>
+            <br>
+            <div>
+                <p class="message"><label for="message">Mensagem</label></p>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <input type="submit" value="enviar" id="input-submit">
+        </form>
+        <br>
+    </section>
+
+    <footer>
+        <div class="footer-links"><a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="far fa-envelope"></i></a>
+        </div>
+        <small>
+            <p>Designed and coded by Tássia Gomes</p>
+        </small>
+    </footer>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
