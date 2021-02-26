@@ -14,11 +14,10 @@ function closeNav() {
 // random middle photo
 window.onload = choosePic;
 
-var images = new Array("./img/img2.jpg", "./img/img3.jpg", "./img/principal.jpg");
+var images = new Array("./img/center1.jpg", "./img/center2.jpg", "./img/center3.jpg", "./img/center4.jpg");
 
 function choosePic() {
     var randomNum = Math.floor(Math.random() * images.length);
     document.getElementById("random-image").src = images[randomNum];
 }
-
 

@@ -1,0 +1,99 @@
+/* form */
+
+#form-area {
+  animation: transitionMain 0.5s;
+}
+#form-area h2 {
+  text-align: center;
+  color: #fff;
+  margin-top: 30px;
+
+}
+.form-area {
+  width: 60%;
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+   color: #baded7;
+   font-weight: 700;
+     
+}
+
+
+.name,
+.email {
+  text-align: left;
+}
+
+
+#name,
+#email,
+#message, #dropdown{
+  border: 1px solid #95dbd9;
+  background: #fff;
+  padding: 1em;
+  display: block;
+  width: 100%;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  resize: none;
+  color: #292e6e;
+   font-family: 'PT Serif', Serif;
+ 
+}
+
+#message {
+  height: 150px;
+}
+
+
+.half {
+  float: left;
+  width: 48%;
+  margin-bottom: 1em;
+}
+
+.left {
+  margin-right: 2%;
+}
+
+
+.right {
+  width: 50%;
+}
+
+
+#input-submit {
+   font-family: 'PT Serif', Serif;
+  max-width: 300px;
+  cursor: pointer;
+  border: 1px solid #baded7;
+  padding: 10px 15px;
+  background: #baded7;
+  transition: all 0.2s ease-in-out;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  border-radius: 15px;
+  
+}
+
+#input-submit:hover {
+  color: #fff;
+  font-weight: 700;
+
+}
+
+
+
+
+@keyframes transitionMain{
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

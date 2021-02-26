@@ -7,7 +7,6 @@ body {
   box-sizing: border-box;
 }
 
-/*dfe7e6*/
 
 h1, h2 {
 Font-Family: 'Rufina', Serif;
@@ -26,6 +25,17 @@ header {
 
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: #fff;
+}
+
+
+/************* navigation ******************/ 
 
 #nav {
   display: flex;
@@ -38,8 +48,6 @@ header {
  
 }
 
-
-
 .logo {
   width: 150px;
   padding-top: 10px;
@@ -47,8 +55,6 @@ header {
  
 
 }
-
-
 
 #insta-nav {
   font-size: 24px;
@@ -68,198 +74,10 @@ header {
   color: #fff;
 }
 
-
-/* sidebar */
-
-.sidebar {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #baded7;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 80px;
-}
-
-.sidebar a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #141a6b;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidebar a:hover {
-  color: #f1f1f1;
-}
-
-.sidebar .closebtn {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  font-size: 42px;
-  margin-left: 50px;
-}
-
-.closebtn {
-  display: block;
-    position: fixed;
-    top: 0px;
-    width: 22px;
-    height: 22px;
-    transition: transform .25s ease-in-out;
-}
-
-
-.closebtn:before{
-	 content: "";
-    position: absolute;
-    display: block;
-    margin: auto;
-    left: 0;
-    right: 0;
-    top: 0px;
-    bottom: 0;
-    width: 22px;
-    height: 0;
-    border-top: 2px solid #141a6b;;
-    transform: rotate(45deg);
-    transform-origin: center;
-}
-
-.closebtn:after {
-    content: "";
-    position: absolute;
-    display: block;
-    margin: auto;
-    left: 0;
-    right: 0;
-    top: 0px;
-    bottom: 0;
-    width: 22px;
-    height: 0;
-    border-top: 2px solid #141a6b;;
-    transform: rotate(-45deg);
-    transform-origin: center;
-}
-  
- 
-
-.closebtn:hover {
-
-	transform: rotate(180deg);
- 
-}
-
-.openbtn {
-  font-size: 20px;
-  cursor: pointer;
-  background-color: transparent;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-  
-}
-
-.openbtn:hover{
-  color: #baded7;
-  outline: none;
-}
-
-.openbtn:active{
-  color: #baded7;
-  outline: none;
-}
-
-.fa-home {
-  color: #fff;
-}
-
-.fa-home:hover {
-  color: #141a6b;
-  transition: 00.15s all ease-in;
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidebar {
-    padding-top: 15px;
-  }
-  .sidebar a {
-    font-size: 18px;
-  }
-}
-
-#about {
-  width: 100%;
-  min-height: 300px;
-  background-color: #baded7;
-  margin:0 auto;
-
-}
-
-.about-pic {
-  width: 200px;
-  border-radius: 200px 200px 0px 0px; 
-  float: left;
-  margin-right: 100px;
-}
-
-.info {
-  padding: 50px 100px;
-  line-height: 24px;
-}
+/************* footer ******************/ 
 
 
 
-
-/* grid */
-
-.grid-flex {
-  display: flex;
-  width: 100%;
-
-  flex-wrap: wrap;
-  
-}
-
-.col {
-  display: flex;
-  width: 400px;
-  align-content: center;
-  flex-grow: 2;
-  justify-content: center;
-  
-
-}
-
-.col-1 img {
-  flex-grow: 1;
-  width: 100%;
-  height: 600px;
-}
-
-
-
-.col-4  {
-  background: #292e6e;
-  max-height: 300px;
-  padding: 50px;
-
-
-}
-
-.col-4 h2 {
-  color: #daede9;
-  display: flex;
-  align-items: center;
-  font-size: 36px;
-  letter-spacing: 2px;
-}
 
 
 footer {
@@ -295,85 +113,7 @@ footer {
 
 
 
-/* form */
-#form-area h2 {
-  text-align: center;
-  color: #fff;
-  margin-top: 30px;
 
-}
-.form-area {
-  width: 60%;
-  max-width: 800px;
-  margin: 40px auto;
-  text-align: center;
-   color: #baded7;
-   font-weight: 700;
-}
-
-
-.name,
-.email {
-  text-align: left;
-}
-
-
-#name,
-#email,
-#message, #dropdown{
-  border: 1px solid #95dbd9;
-  background: #fff;
-  padding: 1em;
-  display: block;
-  width: 100%;
-  margin-top: 1em;
-  margin-bottom: 2em;
-  resize: none;
-  color: #292e6e;
-   font-family: 'PT Serif', Serif;
- 
-}
-
-#message {
-  height: 150px;
-}
-
-
-.half {
-  float: left;
-  width: 48%;
-  margin-bottom: 1em;
-}
-
-.left {
-  margin-right: 2%;
-}
-
-
-.right {
-  width: 50%;
-}
-
-
-#input-submit {
-   font-family: 'PT Serif', Serif;
-  max-width: 300px;
-  cursor: pointer;
-  border: 1px solid #baded7;
-  padding: 10px 15px;
-  background: #baded7;
-  transition: all 0.2s ease-in-out;
-  letter-spacing: 0.1em;
-  font-weight: 500;
-  border-radius: 15px;
-  
-}
-
-#input-submit:hover {
-  color: #fff;
-  font-weight: 700;
-
-}
 
 /* instafeed */ 
 
