@@ -74,6 +74,8 @@ a:hover {
   color: #fff;
 }
 
+
+
 /************* footer ******************/ 
 
 
@@ -125,3 +127,15 @@ footer {
 
 }
 
+
+
+
+
+@media screen and (max-width: 768px) {
+
+#insta-nav {
+  display: none;
+}
+
+
+}
