@@ -1,17 +1,11 @@
 #about {
+  display: flex;
   width: 100%;
-  min-height: 300px;
-  background-color: #baded7;
+  background-color: #ceede7;
   margin:0 auto;
 
 }
 
-.about-pic {
-  width: 200px;
-  border-radius: 200px 200px 0px 0px; 
-  float: left;
-  margin-right: 100px;
-}
 
 .info {
   padding: 50px 100px;
@@ -19,6 +13,15 @@
   animation: transitionMain 0.5s;
   
 }
+
+.about-pic {
+  width: 300px;
+  border-radius: 200px 200px 0px 0px; 
+  float: left;
+  margin-right: 100px;
+}
+
+
 
 
 @keyframes transitionMain{

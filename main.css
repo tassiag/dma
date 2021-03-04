@@ -31,7 +31,7 @@ a {
 }
 
 a:hover {
-  color: #fff;
+  color: #4e786f;
 }
 
 
@@ -39,20 +39,13 @@ a:hover {
 
 #nav {
   display: flex;
-  padding-left: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
-#nav button {
-  height: 50px;
-  align-self: center;
- 
-}
 
 .logo {
   width: 150px;
-  padding-top: 10px;
-  align-self: center;
- 
 
 }
 
@@ -60,11 +53,13 @@ a:hover {
   font-size: 24px;
   padding-right: 20px;
   align-self: center;
+  
  
 }
 
 #insta-nav .fa-instagram {
   color: #baded7;
+  display: block;
   
 }
 
