@@ -34,28 +34,27 @@ a:hover {
 
 /************* navigation ******************/ 
 
-#nav {
+header {
   display: flex;
-  padding-left: 20px;
+  justify-content: space-between;
+}
+#nav {
+  align-self: center;
+  height: 50px;
+  padding-left: 10px;
 }
 
-#nav button {
-  height: 50px;
-  align-self: center;
- 
-}
 
 .logo {
-  width: 150px;
-  padding-top: 10px;
+  width: 130px;
   align-self: center;
  
 
 }
 
 #insta-nav {
-  font-size: 24px;
-  padding-right: 20px;
+  font-size: 18px;
+  padding-right: 10px;
   align-self: center;
  
 }

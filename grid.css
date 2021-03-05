@@ -29,20 +29,14 @@
 
 .col-4  {
   background: #292e6e;
-  max-height: 300px;
-  padding: 50px;
-  max-width: 100%;
-  text-align: center;
-
-
-}
-
-.col-4 h2 {
   color: #daede9;
-  display: flex;
-  align-items: center;
-  font-size: 36px;
+  max-height: 300px;
+  padding: 30px;
+  text-align: center;
+   font-size: 28px;
   letter-spacing: 2px;
+
+
 }
 
 
@@ -58,3 +52,11 @@
         transform: translateY(0);
     }
 }
+
+@media screen and (max-width: 768px) {
+  .col-1 {
+   flex-basis: 100%;
+  }
+ .col-4 {
+  font-size: 22px;
+ }
