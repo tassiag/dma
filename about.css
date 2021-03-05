@@ -8,8 +8,8 @@
 
 
 .info {
-  padding: 50px 100px;
-  line-height: 24px;
+  padding: 50px 80px;
+  line-height: 28px;
   animation: transitionMain 0.5s;
   
 }
@@ -18,7 +18,7 @@
   width: 300px;
   border-radius: 200px 200px 0px 0px; 
   float: left;
-  margin-right: 100px;
+  margin-right: 80px;
 }
 
 
@@ -34,4 +34,33 @@
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+
+
+@media screen and (max-width: 768px) {
+ #about {
+   width: 100%;
+   margin: 0;
+   padding: 0;
+ }
+
+ 
+.about-pic {
+display: none;
+  
+}
+
+
+.info {
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px;
+  
+}
+
+
+
+
+
 }
