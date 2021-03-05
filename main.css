@@ -8,13 +8,10 @@ body {
 }
 
 
-h1, h2 {
+h1, h2, h3 {
 Font-Family: 'Rufina', Serif;
 }
 
-h3 {
-  font-family: 'Rufina', Serif;
-}
 
 header {
    display: flex;
@@ -31,7 +28,7 @@ a {
 }
 
 a:hover {
-  color: #4e786f;
+  color: #fff;
 }
 
 
@@ -39,13 +36,20 @@ a:hover {
 
 #nav {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  padding-left: 20px;
 }
 
+#nav button {
+  height: 50px;
+  align-self: center;
+ 
+}
 
 .logo {
   width: 150px;
+  padding-top: 10px;
+  align-self: center;
+ 
 
 }
 
@@ -53,13 +57,11 @@ a:hover {
   font-size: 24px;
   padding-right: 20px;
   align-self: center;
-  
  
 }
 
 #insta-nav .fa-instagram {
   color: #baded7;
-  display: block;
   
 }
 
@@ -128,9 +130,7 @@ footer {
 
 @media screen and (max-width: 768px) {
 
-#insta-nav {
-  display: none;
-}
+
 
 
 }

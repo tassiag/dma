@@ -14,23 +14,24 @@
 }
 
 .sidebar a {
-  margin: 20px 30px;
+  padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 22px;
   color: #141a6b;
   display: block;
   transition: 0.3s;
+
 }
 
 .sidebar a:hover {
-  color: #afdbd3;
+  color: #3840a6;
 }
 
 .sidebar .closebtn {
   position: absolute;
   top: 20px;
   right: 20px;
-  font-size: 42px;
+  font-size: 36px;
   margin-left: 50px;
 }
 
@@ -55,7 +56,7 @@
     bottom: 0;
     width: 22px;
     height: 0;
-    border-top: 2px solid #141a6b;;
+    border-top: 2px solid #141a6b;
     transform: rotate(45deg);
     transform-origin: center;
 }
@@ -88,24 +89,40 @@
   font-size: 16px;
   cursor: pointer;
   background-color: transparent;
-  color: white;
+  color:#fff;
   padding: 10px 15px;
   border: none;
+
+
+  
   
 }
 
+.openbtnresponsive {
+  font-size: 16px;
+  cursor: pointer;
+  background-color: transparent;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  display: none;
+  
+
+}
+
 .openbtn:hover{
-  color: #afdbd3;
+  color: #baded7;
   outline: none;
 }
 
 .openbtn:active{
-  color: #afdbd3;
+  color: #baded7;
   outline: none;
 }
 
 .fa-home {
-  color: #afdbd3;
+  color: #5057b3;
+  font-size: 18px;
 }
 
 .fa-home:hover {
@@ -117,11 +134,18 @@
   .sidebar {
     padding-top: 15px;
     text-align: center;
-    width: 100%;
+
   }
   .sidebar a {
     font-size: 32px;
     margin-top: 20px;
-    
+  }
+
+  .openbtn {
+  display: none;
+  }
+
+  .openbtnresponsive {
+  display: block;
   }
 }
