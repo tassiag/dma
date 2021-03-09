@@ -97,3 +97,15 @@
         transform: translateY(0);
     }
 }
+
+
+@media screen and (max-width: 768px) {
+
+
+  .form-area {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+
+  }
+}
