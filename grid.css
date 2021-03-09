@@ -55,12 +55,17 @@
 
 @media screen and (max-width: 768px) {
   .col-1 {
+  flex-direction: column;
    flex-basis: 100%;
    align-self: center;
-   flex-grow: 0;
   
+  }
+
+  .col img {
+    height: auto;
   }
  .col-4 {
   font-size: 22px;
  }
+
 }
